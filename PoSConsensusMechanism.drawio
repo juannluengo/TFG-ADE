@@ -23,7 +23,7 @@
           <mxGeometry x="78.75" y="185" width="142.5" height="57" as="geometry" />
         </mxCell>
         <mxCell id="kZWhtJNA0DSKdZdHqCCg-11" value="&lt;font&gt;Sends transaction request&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="4" y="175" width="164" height="30" as="geometry" />
+          <mxGeometry x="9.870000000000001" y="116" width="164" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kZWhtJNA0DSKdZdHqCCg-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Verifies transaction validity and adds them to unconfirmed transactions pool&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="281" y="146" width="190.2" height="39" as="geometry" />
