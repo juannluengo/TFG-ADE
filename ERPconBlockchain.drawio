@@ -1,9 +1,103 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2">
   <diagram name="Página-1" id="eVaQWZCv_OkDyne9O0UG">
-    <mxGraphModel>
+    <mxGraphModel dx="1883" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e-T537T6jsOM0UeFVPEj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-3" target="e-T537T6jsOM0UeFVPEj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-3" value="End users&lt;br&gt;(User interface)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="40" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-5" target="e-T537T6jsOM0UeFVPEj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-5" value="Client layer&lt;div&gt;(Usually desktop or web application)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="130" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-7" target="e-T537T6jsOM0UeFVPEj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-7" value="Firewall / SSL / TLS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-8" target="e-T537T6jsOM0UeFVPEj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-8" target="e-T537T6jsOM0UeFVPEj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-8" value="Application server layer&lt;div&gt;(Business logic processing)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="330" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-9" target="e-T537T6jsOM0UeFVPEj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-9" value="Traditional ERP modules:&lt;div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Human Resources module&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Customer Relationship Management module&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Manufacturing module&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Project Management module&lt;/div&gt;&lt;div style=&quot;&quot;&gt;.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-10" target="e-T537T6jsOM0UeFVPEj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-10" value="Blockchain-enable modules:&lt;div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Finance and accounting module&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Supply chain management module&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-15" target="e-T537T6jsOM0UeFVPEj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-15" value="&lt;div&gt;Middleware layer&lt;/div&gt;&lt;div&gt;(Integration services, Messaging, API management, Data transformation)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="136.25" y="670" width="207.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-17" target="e-T537T6jsOM0UeFVPEj-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-17" value="Database layer&lt;div&gt;(Centralized DBMS)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="790" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-19" target="e-T537T6jsOM0UeFVPEj-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-19" value="Data storage layer&lt;div&gt;(Master data and transactional data)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="790" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-20" target="e-T537T6jsOM0UeFVPEj-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1020" />
+              <mxPoint x="405" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-20" value="Backup and recovery systems&lt;div&gt;(Data replication and disaster recovery)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="910" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-23" value="External systems and interferances&lt;div&gt;(EDI, IoT Devices, Payment Gateways, Third-Party Applications,&amp;nbsp;Supplier/Customer Systems, Cloud Services)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1050" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-25" target="e-T537T6jsOM0UeFVPEj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-25" value="&lt;div&gt;Blockchain middleware&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Blockchain integration)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="496.25" y="670" width="207.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-26" target="e-T537T6jsOM0UeFVPEj-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-26" value="&lt;div&gt;Blockchain netwrok&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Distributed ledger)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="518.13" y="790" width="163.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e-T537T6jsOM0UeFVPEj-27" target="e-T537T6jsOM0UeFVPEj-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="1020" />
+              <mxPoint x="405" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-T537T6jsOM0UeFVPEj-27" value="&lt;div&gt;Blockchain nodes&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Consensus mechanisms, smart contracts)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="518.13" y="910" width="163.75" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
